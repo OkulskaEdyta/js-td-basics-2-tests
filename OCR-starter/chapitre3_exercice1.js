@@ -13,6 +13,7 @@
    - Si le jour actuel ne correspond à aucun des jours de la semaine, affichez dans la console "Erreur : jour non reconnu!"
 3. Testez si la variable qui contient le nom du jour suivant n'est pas vide, et dans ce cas, affichez dans la console le message "Demain, nous serons …" suivi du nom du jour suivant.
 */
+coucou
 
 // Exemple : si le jour actuel est "mardi", le programme devrait afficher "Demain, nous serons mercredi."
 
