@@ -13,8 +13,28 @@
    - Si le jour actuel ne correspond à aucun des jours de la semaine, affichez dans la console "Erreur : jour non reconnu!"
 3. Testez si la variable qui contient le nom du jour suivant n'est pas vide, et dans ce cas, affichez dans la console le message "Demain, nous serons …" suivi du nom du jour suivant.
 */
-coucou
+
 
 // Exemple : si le jour actuel est "mardi", le programme devrait afficher "Demain, nous serons mercredi."
 
 // N'oubliez pas de tester votre programme avec divers jours de la semaine.
+
+const currentDay = "Jeudi" ;
+let nextDay = "";
+
+if (currentDay === "Lundi"){
+    console.log("Demain, nous serons Mardi");
+} else if (currentDay === "Mardi") {
+    console.log("Demain, nous serons Mercredi");
+} else if (currentDay === "Mercredi") {
+    console.log("Demain, nous serons Jeudi");
+} else if (currentDay === "Jeudi") {
+    console.log("Demain, nous serons Vendredi");
+} else if (currentDay === "Vendredi") {
+    console.log("Demain, nous serons Samedi");
+} else if (currentDay === "Samedi") {
+    console.log("Demain, nous serons Dimanche");
+} else if (currentDay === "Dimanche") {
+    console.log("Demain, nous serons Lundi")
+}
+
